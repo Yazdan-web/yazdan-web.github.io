@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, blue, purple);
+  color: #f9fafb;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card {
+  width: 100%;
+  max-width: 520px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 28px;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 13px;
+  color: #a5b4fc;
+  border: 1px solid rgba(165, 180, 252, 0.35);
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+p {
+  line-height: 1.9;
+  color: #e5e7eb;
+  margin-bottom: 18px;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.skills li {
+  font-size: 13px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 7px 12px;
+  border-radius: 999px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ffffff;
+  color: #4f46e5;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 14px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.small {
+  font-size: 12px;
+  color: whitesmoke;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.services li {
+  list-style: none;
+  /* نقطه پیش‌فرض مرورگر را حذف کن */
+
+  background: rgba(255, 255, 255, 0.10);
+  /* پس‌زمینه سفید شیشه‌ای */
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  /* قاب نازک دور جعبه */
+
+  border-radius: 12px;
+  /*گوشه‌های تمام گرد */
+
+  padding: 10px 14px;
+  /* فاصله داخلی تا متن به قاب نچسبد */
+
+  margin-bottom: 14px;
+  /* فاصله زیر هر جعبه تا به قبلی نچسبد */
+}
+.about h2,
+.services h2 {
+  background: rgba(255, 255, 255, 0.10);
+  /* پس زمینه سفید شیشه ای */
+  
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  /* قاب نازک دور جعبه */
+  
+  border-radius: 12px;
+  /* گوشه های تمام گرد */
+  
+   padding: 10px 14px;
+   /* فاصله داخلی تا متن به قاب نچسبد */
+   
+   margin-bottom: 14px;
+   /* فاصله زیر جعبه تا به قبلی نچسبد */
+}
