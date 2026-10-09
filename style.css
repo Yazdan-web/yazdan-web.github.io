@@ -102,7 +102,7 @@ p {
   /* فاصله زیر هر جعبه تا به قبلی نچسبد */
 }
 .about h2,
-.services h2 {
+.services h2, .portfolio h2 {
   background: rgba(255, 255, 255, 0.10);
   /* پس زمینه سفید شیشه ای */
   
